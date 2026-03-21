@@ -1,73 +1,125 @@
-# Welcome to your Lovable project
+# 🔐 Personal Digital Security Posture Analyzer
 
-## Project info
+## 👩‍💻 Team Details
+**Team Name:** Tech Queens  
 
-**URL**: https://personal-fortify-zone.lovable.app
+### 👤 Team Lead  
+**Name:** Gollapalli Rasmitha  
+**Role:** Full Stack Developer & Project Lead  
+**Responsibilities:** Design, development, integration, and deployment  
+- GitHub: https://github.com/GollapalliRasmitha  
+- LinkedIn: https://www.linkedin.com/in/gollapalli-rasmitha-638014321  
 
-## How can I edit this code?
+### 👥 Team Member  
+**Name:** Sompalli Rupa Sree  
+**Role:** Frontend Developer  
+**Responsibilities:** UI/UX design and interface development  
+- GitHub: https://github.com/Rupa-2006  
+- LinkedIn: https://www.linkedin.com/in/rupa-sree-sompalli-b3558632b  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📌 Project Overview
+The **Personal Digital Security Posture Analyzer** is a web application that helps users understand and improve their online security.
 
-Simply visit the [Lovable Project](https://personal-fortify-zone.lovable.app) and start prompting.
+It analyzes passwords and emails to identify vulnerabilities and provides a **security score** along with suggestions to improve digital safety.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Live Demo  
+👉 https://personal-fortify-zone.lovable.app  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://personal-fortify-zone.lovable.app)
+## 🎯 Problem Statement
+Many individuals and small businesses lack awareness about their digital security risks.
 
-Follow these steps:
+This platform helps users:
+- Identify weak passwords  
+- Detect potential risks  
+- Improve their overall digital security posture  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ✨ Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+### ✅ Working Features
+- 🔑 Password Strength Analyzer  
+- 📊 Security Score Display  
+- 🔐 Google OAuth Login  
+- 📱 Clean and user-friendly interface  
+- 📌 Basic vulnerability detection  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### 🧪 Beta Features (In Progress)
+- 📧 Email Breach Detection *(simulated, not real-time)*  
+- 📩 Email Verification during Signup *(not fully working)*  
+- 🔐 Advanced Authentication *(in progress)*  
+- 📈 Advanced Security Scoring *(basic logic currently)*  
+- 🧠 Personalized Recommendations *(static for now)*  
+
+---
+
+## 🔐 Authentication
+- Google OAuth Login ✅  
+- Email & Password Signup *(Beta)*  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React (TypeScript - `.tsx`), HTML, CSS  
+- **Backend:** In Progress  
+- **Database:** Planned  
+- **Deployment:** Lovable Platform  
+
+---
+
+## 📂 Project Structure
+```bash
+/project-root
+│── src/
+│   │── components/
+│   │── pages/
+│   │── security.ts
+│── public/
+│── package.json
+│── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📊 How It Works
+1. User enters a password or email  
+2. System analyzes the input  
+3. Simulated breach detection runs  
+4. Security score is calculated  
+5. Results and suggestions are displayed  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎥 Presentation Flow
+- Introduction to the platform  
+- Problem explanation  
+- Live demo of features  
+- Explanation of security score  
+- Discussion of improvements  
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🔮 Future Scope
+- Integration with real-time breach detection APIs  
+- Full backend development and database integration  
+- Secure email verification system  
+- AI-based personalized security recommendations  
+- Multi-account tracking and analysis  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📌 Note
+Some features are currently under development and are marked as **Beta**.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Email breach detection currently uses **simulated data** for demonstration purposes.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🙌 Acknowledgment
+This project was developed as part of a hackathon to promote cybersecurity awareness and help users improve their digital safety.
